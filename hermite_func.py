@@ -2,7 +2,7 @@ import numpy as np
 from scipy.special import eval_hermite, factorial
 
 
-def hermite_functions(n, x, all_n=True, move_axes=(), method="recursive"):
+def hermite_functions(n, x, all_n=False, move_axes=(), method="recursive"):
     """
     Calculate the Hermite functions up to the nth order at position x, psi_n(x).
 
